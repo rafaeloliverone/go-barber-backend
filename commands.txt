@@ -11,3 +11,5 @@ yarn add @typescript-eslint/eslint-plugin@latest eslint-config-airbnb-base@lates
 yarn add eslint-import-resolver-typescript -D
 
 yarn add prettier eslint-config-prettier eslint-plugin-prettier -D
+
+yarn add uuidv4
