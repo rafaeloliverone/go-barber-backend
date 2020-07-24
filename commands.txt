@@ -4,3 +4,10 @@ yarn add typescript -D
 yarn tsc --init
 yarn add @types/express -D
 yarn add ts-node-dev -D
+
+yarn add eslint@6.8.0 -D
+yarn eslint --init
+yarn add @typescript-eslint/eslint-plugin@latest eslint-config-airbnb-base@latest eslint-plugin-import@^2.21.2 @typescript-eslint/parser@latest -D
+yarn add eslint-import-resolver-typescript -D
+
+yarn add prettier eslint-config-prettier eslint-plugin-prettier -D
