@@ -20,3 +20,5 @@ yarn add typeorm pg
 
 yarn typeorm migrations:create -n CreateAppointments
 yarn typeorm migrations:run
+
+yarn add reflect-metadata

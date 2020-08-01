@@ -12,6 +12,7 @@ export default class CreateAppointments1596177562213
             type: 'varchar',
             isPrimary: true,
             generationStrategy: 'uuid',
+            default: 'uuid_generate_v4()',
           },
           {
             name: 'provider',
@@ -22,10 +23,10 @@ export default class CreateAppointments1596177562213
             name: 'date',
             type: 'timestamp with time zone',
             isNullable: false,
-          }
-        ]
-      })
-    )
+          },
+        ],
+      }),
+    );
   }
 
   public async down(queryRunner: QueryRunner): Promise<void> {
