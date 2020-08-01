@@ -23,3 +23,6 @@ yarn typeorm migrations:run
 yarn typeorm migrations:revert
 
 yarn add reflect-metadata
+
+yarn add bcryptjs
+yarn add -D @types/bcryptjs
