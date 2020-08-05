@@ -46,7 +46,7 @@ usersRouter.patch(
 
       return response.json(user);
     } catch (err) {
-      return response.status(400).json('catch na rota');
+      return response.status(400).json({ error: 'Error updating avatar' });
     }
   },
 );
